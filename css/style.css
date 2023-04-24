@@ -44,7 +44,7 @@ body {
     margin: 0;
 }
 .main-container {
-    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/MiniProject/banir.jpg);
+    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/banir.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: right;
@@ -60,7 +60,7 @@ body {
 }
 **/
 .footer {
-    background-image: url(file:///C:/Users/nicolo%20renzo/documents/MP1/gradient.png);
+    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/gradient.png);
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -108,7 +108,7 @@ img.cstm-logo {
 
 .main-nav {
     padding: 0px;
-    background-image:url(file:///C:/Users/nicolo%20renzo/documents/MP1/gradient.png);
+    background-image:url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/gradient.png);
 }
 div#myTopnav a.white {
     text-decoration: none;

@@ -1,0 +1,397 @@
+
+
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.main-nav {
+    position: absolute;
+    width: 100%;
+    left:0;
+    z-index: 11;
+}
+.banner-sec {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.item {
+    height: 575px;
+}
+
+a.right.carousel-control, a.left.carousel-control {
+    z-index: 10;
+}
+
+
+a.cstm-button.white:hover {
+    background-color: #0a0934;
+} 
+body {
+    font-family: "Lato", sans-serif;
+    transition: 0.5s;
+    position: absolute;
+    margin: 0;
+}
+.main-container {
+    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/MiniProject/banir.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+
+}
+/**
+.banner-sec{
+    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/MiniProject/belya.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    padding: 80px;
+}
+**/
+.footer {
+    background-image: url(file:///C:/Users/nicolo%20renzo/documents/MP1/gradient.png);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    margin-top: 120px;
+   
+    
+}
+.cstm-inline {
+    display: inline-block;
+	vertical-align: top;
+}
+.cstm-w1 {
+    width: 35%;
+}
+.cstm-w2 {
+    width: 26%;
+	float:right;	
+}
+
+
+.logo, .detail {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -5px;
+}
+img.cstm-logo {
+    max-width: 160px;
+    padding-left: 10px;
+}
+.detail {
+    width: 70%;
+}
+.logo{
+    width: 30%;
+}
+.white{
+    color: #fff;
+}
+
+.blue {
+    color: #fff;
+}
+
+
+
+.main-nav {
+    padding: 0px;
+    background-image:url(file:///C:/Users/nicolo%20renzo/documents/MP1/gradient.png);
+}
+div#myTopnav a.white {
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+    border: #c5c3c3;
+    border-radius: 0px;
+    text-decoration:none;
+    overflow: hidden;
+    transition: 0.5s;
+    float: right;
+    margin-right: 25px;
+    margin-top: -0px;
+}
+a.cta-btn.cstm-button.black:hover {
+    background-color: #0a0934;
+}
+
+h1.white {
+    text-align: center;
+    font-size: 270%;
+    font-family: serif;
+    margin: 50px;
+    font-weight: bolder;
+}
+
+p {
+    font-weight: bolder;
+    margin-bottom: -50px;
+    letter-spacing: 13px;
+}
+
+
+a.cstm-button.white {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 0px;
+    transition: 0.5s;
+    border: solid;
+    border-width: thin;
+}
+.cstm-button.white a:hover {
+    background-color: #0a0934;
+    background: repeating-linear-gradient(45deg, black, transparent 100px)
+}
+
+.cstm-button.white a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ecec;
+    display: block;
+    transition: 0.5s;
+}   
+
+
+
+
+a.cstm-button.black {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 0px;
+    transition: 0.2s;
+    border: solid;
+    border-width: thin;
+    color: #fff;
+}
+.cstm-request {
+    text-align: center;
+    margin-top: 80px;
+}
+.cstm-button.black a:hover {
+    background-color: #0a0934;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    
+}
+
+.cstm-button.black a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ecec;
+    display: block;
+    transition: 0.5s;
+}
+
+
+
+
+
+.topnav a:hover{
+    background-color: #0a0934;   
+    padding:5px 20px;
+    
+}
+
+.topnav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ecec;
+    display: block;
+    transition: 0.2s;
+    
+}
+
+
+@media screen and (max-height: 450px) {
+  .topnav {padding-top: 15px;}
+  .topnav a {font-size: 18px;}
+}
+
+
+img.cstm-social {
+    width: 25px;
+    margin-right: 10px;
+}
+.cta-sec {
+    background: linear-gradient(0deg, #000000 0%, #015ec1 100%);
+
+}
+
+.inner-sec {
+    max-width: 800px;
+    margin: auto;
+    padding: 55px 0;
+   
+}
+.cstm-half {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+.cstm-third {
+    display: inline-block;
+    width: 32%;
+    vertical-align: middle;
+    box-shadow: 11px 13px 5px -4px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 11px 13px 5px -4px rgba(0,0,0,0.41);
+    -moz-box-shadow: 11px 13px 5px -4px rgba(0,0,0,0.41);
+    
+}
+.mid\.cstm-half {
+    text-align: right;
+}
+.last.cstm-half {
+    text-align: right;
+}
+.bg-white {
+    background-color: white;
+    height: 795px;
+    margin-top: -66px;
+    padding-top: 100px;
+}
+
+
+h2.text-center {
+    margin-top: 29px;
+    font-family: inherit;
+    letter-spacing: 20px;
+}
+
+
+
+.cstm-overlay {
+    text-align: center;
+    font-size: 140px;
+    position: absolute;
+    opacity: .1;
+    padding: 0 10px;
+    margin: 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -388px;
+    text-shadow: 4px -3px 2px #2619eb;
+}
+
+.cta-sec {
+    position: relative;
+}
+
+
+#date {
+    margin-top: 15px;
+    padding: 20px 80px;
+}
+.cstm-two-col {
+    text-align: center;
+}
+label.white{ 
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+p.blue {
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: -12px
+}
+/*Responsiveness*/
+@media only screen and (max-width: 768px) {
+    .cta-sec .cstm-half {
+        width: 100%;
+        display: block;
+    }
+    .banner-sec {
+        padding: 0;
+    }
+}
+
+img {
+    width: 250px;
+    
+}
+
+.cstm-third-inner {
+    display: table-column-group;
+    position: absolute;
+    margin-top: 20px;
+}
+.lct {
+    margin-top: 260px;
+}
+
+.pct {
+    margin-left: 260px;
+}
+
+.mct {
+    margin-left: 521px;
+}
+
+video {
+    margin: 90px 0px 0px 5px;
+}
+
+/* bootstrap vid */
+#myVideo {
+    min-width: 100%;
+    margin-left: 0px;
+    margin-top: -1px;
+    height: 100vh;
+    
+  }
+  
+  .conent {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-top: -60px;
+    position: absolute;
+    border: solid;
+    border-width: thin;
+  }
+  
+  #myBtn:hover {
+    background: #16318a;
+    color: black;
+    
+  }
+
+/**Assitional CSS**/
+  .container {
+    width: 100%;
+    padding: 0;
+}
+
+
+
+
+

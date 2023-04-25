@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -40,7 +44,6 @@ a.cstm-button.white:hover {
 body {
     font-family: "Lato", sans-serif;
     transition: 0.5s;
-    position: absolute;
     margin: 0;
 }
 .main-container {
@@ -210,6 +213,12 @@ a.cstm-button.black {
     display: block;
     transition: 0.2s;
     
+}
+
+
+#myVideo {
+    min-width: 100%;
+    height: 100vh;
 }
 
 

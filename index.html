@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project 1 in Kodego</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,69 +16,48 @@
 
 
 </head>
-<body>
-<div class="main-container">
-	<div class="container">
-		<div class="top-bar">
-		</div>
-			
-		<div class="main-nav">
+<body class="container-fluid p-0 m-0" >
+	<div class="container-fluid p-0 m-0"  >
+        
+        
+        <div class="main-nav">
             <div class="logo">
-				<img class="cstm-logo" width="100%" src="./img/lugu.png">
+			    	<img class="cstm-logo" width="100%" src="./img/lugu.png">
 			</div>
-			<div class="topnav detail" id="myTopnav">
+			    <div class="topnav detail" id="myTopnav">
                     <a class="white padding" target=_blank href="https://www.designrush.com/best-designs/websites" class="active">About</a>
                     <a class="white padding" target=_blank href="https://www.wazile.com/blog/website-cost-in-the-philippines/">Service</a>
                     <a class="white padding" target=_blank href="https://digitalchores.co/website-design-development-services/">Pricing</a>
                     <a class="white padding" href="https://quotefancy.com/quote/1755637/Christina-Grimmie-I-m-not-perfect-but-I-believe-my-faith-in-Jesus-Christ-will-really-take">Features</a>
-               
-          
-			</div>
-		</div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <div class="banner-sec">
-                <div class="inner-sec text-center">
-                    <p class="white">VILLA EXCELLANCE</p>
-                    <h1 class="white text-center">BEACH & WAVE POOL RESORT</h1>
-                    <a class="cstm-button white text-center" class="topnav" target=_blank href="https://www.facebook.com/elementjuan">INQUIRE HERE</a>
                 </div>
-            </div>
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-    
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-            <div class="item active">
-                <img src="./img/banner1.jpg"  style="width:100%;">
-            </div>
-    
-            <div class="item">
-                <img src="./img/banner2.jpg"  style="width:100%;">
-            </div>
-            
-            <div class="item">
-                <img src="./img/banner3.jpg" style="width:100%;">
-            </div>
+		</div>
 
-            <div class="item">
-                <img src="./img/banner4.jpg"  style="width:100%;">
+        <!-- My Carousel -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/benner1.jpg" class="d-block w-100" alt="image">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/bener2.jpg" class="d-block w-100" alt="image">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner3.jpg" class="d-block w-100" alt="image">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/bener4.jpg" class="d-block w-100" alt="image">
+              </div>
             </div>
-            </div>
-    
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-                </a>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
 
 		<div class="content">
             
@@ -86,11 +65,11 @@
                 <div class="inner-sec">
                     
                 <div class="cstm-two-col">
-                    <div class="first cstm-half">
-                        <label for="date" class="white">CHECK IN DATE</label>
-                        <br>
-                        <input type="date" name="date" id="date"/>
-                    </div>
+                        <div class="first cstm-half">
+                            <label for="date" class="white">CHECK IN DATE</label>
+                            <br>
+                            <input type="date" name="date" id="date"/>
+                        </div>
                     
                     <div class="second cstm-half">
                         <label for="date" class="white">CHECK OUT DATE</label>
@@ -98,91 +77,36 @@
                         <input type="date" name="date" id="date">
                     </div>
                 </div>
-                <div class="cstm-request"><a class="cta-btn cstm-button black" target=_blank href="https://www.facebook.com/elementjuan">REQUEST A QUOTE</a></div>
+                    <div class="cstm-request"><a class="cta-btn cstm-button black" target=_blank href="https://www.facebook.com/elementjuan">REQUEST A QUOTE</a></div>
+                </div>
             </div>
-        </div>
+
             <div class="services-sec bg-white">
-                <div class="inner-sec">
+                <div class="inner-sec" id="bannr">
                     <div class="cstm-overlay gray">WELCOME</div>
-                    <h2 class="text-center">SERVICES WE OFFERED</h2>
-                    <div class="first cstm-third">
-                        <div class="cstm-third-inner">
-                            <div data-aos="zoom-in-down"><img src="./img/belya5.jpg"></div>
-                        </div>
-                    </div>
-                    <div class="last cstm-third">
-                        <div class="cstm-third-inner">
-                            <div data-aos="zoom-in-down"><img src="./img/belya6.jpg"></div>
-                        </div>
-                        
-                    </div>
-                    <div class="last cstm-third">
-                        <div class="cstm-third-inner">
-                            <div data-aos="zoom-in-down"><img src="./img/belya7.jpg"></div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="lct">
-                        <div class="cstm-third-inner">
-                            <div data-aos="fade-right"><img src="./img/belya8.jpg"></div>
-                        </div>
-                    </div>
-
-                    <div class="pct">
-                        <div class="cstm-third-inner">
-                            <div data-aos="fade-up"
-                            data-aos-anchor-placement="bottom-bottom"><img src="./img/bilya1.jpg"></div>
-                        </div>
-                        
-                    </div>
-
-                    <div class="mct">
-                        <div class="cstm-third-inner">
-                            <div data-aos="fade-left"
-                            data-aos-anchor-placement="bottom-bottom"><img src="./img/bilya2.jpg"></div>
-                        </div>
-                        
-                    </div>
-
-
-
+                    <h2 class="text-center">EXALLANCE RESORT</h2>
+                    <p>ONE OF THE BEST PLACES TO RELAX & ENJOY</p>
                 </div>
             </div>
         </div>
 
-        <!-- <video width="1000" height="550 " controls autoplay> --> 
-            <!-- <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg> -->
-            <!-- <source src="/Users/nicolo%20renzo/Desktop/MiniProject/331947325_492685766404321_3175638818137851896_n.mp4" type=video/mp4> -->
-        <!-- </video>  -->
+      
         
-        <video autoplay muted loop id="myVideo">
-            <source src="/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/video.mp4.mp4" type="video/mp4">
-        
-        </video>
-        <div class="content">
-            <button id="myBtn" onclick="myFunction()">Pause</button>
-        </div>
-
-
 
 
         <div class="footer">    
 			<div class="cstm-inline cstm-w1">
-			<h4 class="white">About Us</h4>
-			<p class="blue">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			    <h4 class="white">About Us</h4>
+			    <p class="blue">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 			</div>
 			<div class="cstm-inline cstm-w1">
-			<h4 class="white">Contact Us</h4>
-			<p class="blue">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-			</div>
-			<div class="cstm-inline cstm-w2">
-			<h4 class="white">Follow Us</h4>
-			<p class="white"><img class="cstm-social" src="file:///C:/Users/nicolo%20renzo/Downloads/nico/facebook.png"><img class="cstm-social" src="file:///C:/Users/nicolo%20renzo/Downloads/nico/instagram.png"><img class="cstm-social" src="file:///C:/Users/nicolo%20renzo/Downloads/nico/youtube.png"></p>
-			</div>
+			    <h4 class="white">Contact Us</h4>
+			    <p class="blue">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			</div>	
 		</div>
+		
 	</div>
 	
-</div>
 
 
 

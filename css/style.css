@@ -5,8 +5,6 @@
 }
 
 
-
-
 .text-center {
     text-align: center;
 }
@@ -16,25 +14,12 @@
     width: 100%;
     left:0;
     z-index: 11;
-}
-.banner-sec {
-    position: absolute;
-    z-index: 9;
-    left: 0;
-    right: 0;
-    top: 30%;
+    padding: 0px;
+    background-image:url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/gradient.png);
 }
 
-.carousel-inner {
-    height: 600px;
-}
-
-.item {
-    height: 575px;
-}
-
-a.right.carousel-control, a.left.carousel-control {
-    z-index: 10;
+.container-fluid {
+    padding: 0;
 }
 
 
@@ -46,22 +31,8 @@ body {
     transition: 0.5s;
     margin: 0;
 }
-.main-container {
-    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/banir.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: right;
 
-}
-/**
-.banner-sec{
-    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/MiniProject/belya.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: right;
-    padding: 80px;
-}
-**/
+
 .footer {
     background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/gradient.png);
     background-size: cover;
@@ -70,17 +41,6 @@ body {
     margin-top: 120px;
    
     
-}
-.cstm-inline {
-    display: inline-block;
-	vertical-align: top;
-}
-.cstm-w1 {
-    width: 35%;
-}
-.cstm-w2 {
-    width: 26%;
-	float:right;	
 }
 
 
@@ -109,10 +69,7 @@ img.cstm-logo {
 
 
 
-.main-nav {
-    padding: 0px;
-    background-image:url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/gradient.png);
-}
+
 div#myTopnav a.white {
     text-decoration: none;
     text-align: center;
@@ -127,7 +84,8 @@ div#myTopnav a.white {
     margin-top: -0px;
 }
 a.cta-btn.cstm-button.black:hover {
-    background-color: #0a0934;
+    background-color: #020202;
+    
 }
 
 h1.white {
@@ -180,7 +138,9 @@ a.cstm-button.black {
 }
 .cstm-request {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 .cstm-button.black a:hover {
     background-color: #0a0934;
@@ -216,27 +176,32 @@ a.cstm-button.black {
 }
 
 
-#myVideo {
-    min-width: 100%;
-    height: 100vh;
-}
 
 .cstm-overlay {
     text-align: center;
-    font-size: 140px;
+    font-size: 165px;
     position: absolute;
-    opacity: .1;
-    padding: 0 10px;
+    opacity: 0.1;
+    padding: 0px 10px;
     margin: 0;
-    top: 145%;
+    top: -90px;
     left: 0;
     right: 0;
-    text-shadow: 4px -3px 2px #2619eb;
     display: flex;
     justify-content: center;
+    font-family: ui-sans-serif;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 650px;
 }
 
 
+
+/* MEDIA QUERRY */
 
 @media screen and (max-height: 450px) {
   .topnav {padding-top: 15px;}
@@ -250,9 +215,15 @@ img.cstm-social {
 }
 .cta-sec {
     background: linear-gradient(0deg, #000000 0%, #015ec1 100%);
-
+    margin: 35px;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 1;
+    width: 93%;
+    top: 89%;
+    margin-top: -50px;
+    height: 300px;
 }
-
 .inner-sec {
     max-width: 800px;
     margin: auto;
@@ -288,34 +259,31 @@ img.cstm-social {
 
 
 h2.text-center {
-    margin-top: 29px;
+    margin-top: -55px;
     font-family: inherit;
-    letter-spacing: 20px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    font-family: ui-sans-serif;
 }
 
 
-
-.cstm-overlay {
+p {
+    margin-top: -5px;
+    margin-bottom: 1rem;
+    letter-spacing: 0px;
+    font-weight: 100;
     text-align: center;
-    font-size: 140px;
-    position: absolute;
-    opacity: .1;
-    padding: 0 10px;
-    margin: 0;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: -388px;
-    text-shadow: 4px -3px 2px #2619eb;
+    word-spacing: 10px;
 }
 
-.cta-sec {
+
+#bannr {
     position: relative;
 }
 
 
 #date {
-    margin-top: 15px;
+    margin-top: -13px;
     padding: 20px 80px;
 }
 .cstm-two-col {
@@ -324,8 +292,11 @@ h2.text-center {
 label.white{ 
     font-size: 12px;
     font-weight: 200;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 
@@ -372,14 +343,6 @@ video {
     margin: 90px 0px 0px 5px;
 }
 
-/* bootstrap vid */
-#myVideo {
-    min-width: 100%;
-    margin-left: 0px;
-    margin-top: -1px;
-    height: 100vh;
-    
-  }
   
   .conent {
     position: fixed;
@@ -419,4 +382,6 @@ video {
 
 
 
+@media (max-width: 992px) {
 
+}

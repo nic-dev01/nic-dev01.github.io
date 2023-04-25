@@ -221,6 +221,22 @@ a.cstm-button.black {
     height: 100vh;
 }
 
+.cstm-overlay {
+    text-align: center;
+    font-size: 140px;
+    position: absolute;
+    opacity: .1;
+    padding: 0 10px;
+    margin: 0;
+    top: 145%;
+    left: 0;
+    right: 0;
+    text-shadow: 4px -3px 2px #2619eb;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 @media screen and (max-height: 450px) {
   .topnav {padding-top: 15px;}

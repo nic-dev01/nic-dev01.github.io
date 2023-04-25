@@ -73,7 +73,7 @@ img.cstm-logo {
 div#myTopnav a.white {
     text-decoration: none;
     text-align: center;
-    font-size: 120%;
+    font-size: 90%;
     border: #c5c3c3;
     border-radius: 0px;
     text-decoration:none;
@@ -201,6 +201,50 @@ a.cstm-button.black {
 
 
 
+/* SECTION  */
+
+.svg_divider {
+    fill: currentColor;
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    padding: 10px 0px 30px 0px;
+}
+
+.wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 24px;
+    margin-top: 24px;   
+}
+
+h4 {
+font-family: Playfair Display,sans-serif;
+font-weight: 700;
+line-height: 1.1;
+text-transform: uppercase;
+margin-top: 27px;
+margin-bottom: 13.5px;
+}
+.wpb_text_column.wpb_content_element {
+    margin: 0px 100px 0px 100px;
+}
+
+.piko {
+    text-align: center;
+}
+img#nikpik {
+    height: 80px;
+    width: 80px;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+p#nic {
+    word-spacing: 0px;
+}
+small {
+    font-size: smaller;
+}
+
 /* MEDIA QUERRY */
 
 @media screen and (max-height: 450px) {
@@ -253,7 +297,7 @@ img.cstm-social {
 .bg-white {
     background-color: white;
     height: 795px;
-    margin-top: -66px;
+    margin-top: -75px;
     padding-top: 100px;
 }
 
@@ -264,8 +308,9 @@ h2.text-center {
     letter-spacing: 0px;
     font-weight: bolder;
     font-family: ui-sans-serif;
+    font-size: 35px;
+    letter-spacing: -2px;
 }
-
 
 p {
     margin-top: -5px;
@@ -306,6 +351,8 @@ p.blue {
     font-weight: 100;
     margin-bottom: -12px
 }
+
+
 /*Responsiveness*/
 @media only screen and (max-width: 768px) {
     .cta-sec .cstm-half {

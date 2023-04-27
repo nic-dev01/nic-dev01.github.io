@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project 1 in Kodego</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +21,7 @@
         <div class="main-nav">
             <div class="logo">
 			    	<img class="cstm-logo" width="100%" src="./img/lugu.png">
-			</div>
+			      </div>
 			    <div class="topnav detail" id="myTopnav">
                     <a class="white padding" target=_blank href="https://www.designrush.com/best-designs/websites" class="active">BOOK NOW</a>
                     <a class="white padding" target=_blank href="https://www.designrush.com/best-designs/websites" class="active">SPA</a>
@@ -33,24 +31,27 @@
                     <a class="white padding" target=_blank href="https://digitalchores.co/website-design-development-services/">ROOMS</a>
                     <a class="white padding" href="https://quotefancy.com/quote/1755637/Christina-Grimmie-I-m-not-perfect-but-I-believe-my-faith-in-Jesus-Christ-will-really-take">HOME</a>
                 </div>
-		</div>
+		    </div>
 
         <!------------------- My Carousel ------------------------------->
+      <div class="hero">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/room.jpg" class="d-block w-100" alt="image">
+                  <div class="cstm-banner">
+                    <div class="first-text hoverbox_container animated animatedFadeInUp fadeInUp">ENJOY A LUXURY<br> EXPERIENCE</div>
+                  </div>
+                <img src="./img/banner4.jpg" class="d-block w-100" alt="image">
               </div>
-              <div class="carousel-item">
-                <img src="./img/bener2.jpg" class="d-block w-100" alt="image">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/banner3.jpg" class="d-block w-100" alt="image">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/bener4.jpg" class="d-block w-100" alt="image">
-              </div>
+              <div class="carousel-item active">
+                <div class="cstm-banner"><div class="first-text hoverbox_container animated animatedFadeInUp fadeInUp">WITH SPA SALON<br>FACILITIES</div></div>
+              <img src="./img/salun.jpg" class="d-block w-100" alt="image">
             </div>
+            <div class="carousel-item active">
+              <div class="cstm-banner"><div class="first-text hoverbox_container animated animatedFadeInUp fadeInUp">IN THE PERFECT<br>LOCATION</div></div>
+            <img src="./img/banner3.jpg" class="d-block w-100" alt="image">
+          </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -60,8 +61,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
-
+        </div>
+<!---------------------------- CHECK DATE ----------------------------------->
 		<div class="content">
             
             <div class="cta-sec">
@@ -120,7 +121,7 @@
     </div>
 
     <!---------------------- HOVER BOX WITH IMG -------------------->
-  <div class="sec-container">
+  <div class="sec-container p-4">
     <div style="background-image: url(./img/spakol.jpg); background-size: cover;" class="hoverbox wpb_content_element black_section neutralize_links stretchy_wrapper ratio_2-3  ">
 			<div class="hoverbox_container animated animatedFadeInUp fadeInUp">
 				<div class="hoverbox_icon">
@@ -182,16 +183,66 @@
     </div>
   
     <div class="last-sec">
-      <div class="boots-slide">
-
+      <img src="./img/edit.jpg" alt="edited" class="edited">
+      <div class="lst">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" style="height: 350px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 1"></button>
+        </div>
+        
+        <div class="carousel-inner" style="height: 350px;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/single.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="lst" style="color:white" >SINGLE ROOM</h5>
+              <p style="color:white">This room is for SINGLE only while waiting his/her special someone with refreshing sea view.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/dubul.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="lst" style="color:white" >DOUBLE ROOM</h5>
+              <p style="color:white">A quality and priceless room with beautiful sea view and good ambience.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/family.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="lst" style="color:white">FAMILY SUITE</h5>
+              <p style="color:white">Bring your FAMILY with spacious suite.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/delux.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="lst" style="color:white">DELUXE KING SUITE</h5>
+              <p style="color:white">KING AND QUEENS SLEEP HERE!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" style="filter: none;" aria-hidden="true" ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" style="filter: none;" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="testimonials">
-
       </div>
     </div>
+  </div>
 
 
-
+  <div class="scnd-cntainer">
+    <div class="tstimonials pt-5">
+      <h6 id="tstimonials">TESTIMONIALS</h6>
+      <p id="tstimonials">LOVELY PEOPLE - AMAZING EXPERIENCES</p>
+    </div>
+  
 
     <div class="footer">    
 			<div class="cstm-inline cstm-w1">
@@ -205,6 +256,7 @@
 		</div>
 
   </div>
+  
 	
 
 

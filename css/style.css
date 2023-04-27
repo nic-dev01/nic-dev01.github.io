@@ -11,6 +11,7 @@
     z-index: 11;
     padding: 0px;
     background-image:url(./gradient.png);
+    height: 100px;
 }
 
 .container-fluid {
@@ -20,6 +21,7 @@
 
 a.cstm-button.white:hover {
     background-color: #0a0934;
+
 } 
 body {
     font-family: "Lato", sans-serif;
@@ -153,21 +155,35 @@ a.cstm-button.black {
 
 
 
+.topnav a:hover {
+    color: #aaa;
+}
+.topnav a:after {
+    transition: all .2s;
+}
 
-
-.topnav a:hover{
-    background-color: #0a0934;   
-    padding:5px 20px;
+.topnav a:hover::after{
+    background-color: #75c5f3;
+    width: 100%;
     
 }
 
-.topnav a {
-    text-decoration: none;
-    font-size: 25px;
-    color: #f3ecec;
-    display: block;
-    transition: 0.2s;
+.topnav a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
     
+}
+.topnav a {
+    position: relative;
+    transition: all .2s;
 }
 
 
@@ -257,10 +273,12 @@ h2.hover {
     color: white;
     font-family: ui-sans-serif;
     font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
 }
 
 p.hover {
     text-align: start;
+    text-shadow: 1px 1px 1px black;
 }
 .hoverbox_text {
     color: white;
@@ -275,11 +293,16 @@ p.hover {
     height: 500px;
 }
 
-.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3 {
-    width: 30%;
-    padding: 50px 20px;
-    position: relative;
+
+.sec-content {
+    display: inline-flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: -150px;
+    height: 500px;
 }
+
+
 
 body {
     padding: 40px;
@@ -310,9 +333,9 @@ body {
 }
 
 .hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3:hover .animated {
-    animation-duration: 1s;
+    animation-duration: .2s;
     animation-fill-mode: both;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: .2s;
     -webkit-animation-fill-mode: both
 }
 
@@ -336,7 +359,7 @@ body {
 
 /* ----------------------------THIRD SEC-------------------------------------- */
 .bttm {
-    background-color: whitesmoke;
+    background-color: #e6edef;
 }
 
 
@@ -379,6 +402,84 @@ h2.bttm {
 
 
 
+/* ----------------------- LAST SECTION -----------------------------------*/
+carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.last-sec {
+    background-color: black;
+    height: 600px;
+    position: relative;
+}
+
+.lst {
+    padding: 124px 25px 124px 280px;
+    position: absolute;
+}
+h5 {
+    font-family: ui-sans-serif;
+    font-weight: bolder;
+    text-shadow: -1px 1px 2px black;
+    margin: revert;
+    font-size: 50px;
+}
+
+h5#lst {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.carousel-indicators {
+    height: 200px;
+    align-items: end;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fffafa;
+}
+
+.carousel-dark .carousel-control-next-icon {
+    filter: none;
+}
+img.edited {
+    position: absolute;
+    z-index: 1;
+    top: 124px;
+    left: 30px;
+    height: 350px;
+} 
+
+
+.carousel-caption.d-none.d-md-block {
+    top: 100px;
+    font-size: 20px;
+    text-shadow: 0px 1px 2px black;
+}
+
+
+
+.tstimonials {
+    text-align: center;
+}
+h6#tstimonials{
+    font-size: 40px;
+    font-family: ui-sans-serif;
+    font-weight: bolder;
+    margin: auto;
+}
 
 /* <--------------------- MEDIA QUERRY --------------------> */
 
@@ -409,6 +510,9 @@ img.cstm-social {
     padding: 64px 0;
    
 }
+
+
+
 .cstm-half {
     display: inline-block;
     width: 49%;
@@ -487,7 +591,20 @@ p.blue {
     font-weight: 100;
     margin-bottom: -12px
 }
+.cstm-overlay {
+    text-align: center;
 
+    position: absolute;
+    opacity: 0.1;
+    padding: 0px 10px;
+    margin: 0;
+    top: -100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-family: ui-sans-serif;
+}
 
 /*Responsiveness*/
 @media only screen and (max-width: 768px) {
@@ -568,3 +685,139 @@ video {
 @media (max-width: 992px) {
 
 }
+/**New CSS**/
+.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3 {
+    width: 33%;
+    padding: 50px 20px;
+    position: relative;
+    display: inline-block;
+    min-height: 400px;
+    vertical-align: top;
+}
+body {
+    padding: 40px;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3:hover .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3:hover .animatedFadeInUp {
+    opacity: 0
+}
+
+.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3:hover .fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.animated.animatedFadeInUp.fadeInUp {
+    visibility: hidden;
+}
+.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3:hover .animated.animatedFadeInUp.fadeInUp {
+    visibility: visible;
+} 
+
+/**Fade Up**/
+
+.cstm-banner .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.cstm-banner .animatedFadeInUp {
+    opacity: 0
+}
+
+.cstm-banner .fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.animated.animatedFadeInUp.fadeInUp {
+    visibility: hidden;
+}
+.cstm-banner .animated.animatedFadeInUp.fadeInUp {
+    visibility: visible;
+} 
+.cstm-banner {
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+}
+.first-text {
+    text-align: center;
+}
+
+.first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
+    font-size: 60px;
+    font-family: ui-sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+a.cta-btn.cstm-button.main:hover {
+    background-color: #020202;
+}
+
+
+a.cstm-button.main {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 0px;
+    transition: 0.2s;
+    border: solid;
+    border-width: thin;
+    color: #fff;
+}
+a#click {
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.cstm-button.black a:hover {
+    background-color: #0a0934;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    
+}
+
+.cstm-button.main a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3ecec;
+    display: block;
+    transition: 0.5s;
+}
+

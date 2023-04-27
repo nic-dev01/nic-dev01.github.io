@@ -31,15 +31,14 @@ body {
 
 
 .footer {
-    background-image: url(file:///C:/Users/nicolo%20renzo/Desktop/mp1/nic-dev01.github.io/img/gradient.png);
     background-size: cover;
     background-position: center;
-    padding: 40px;
-    
-   
-    
+    padding: 0px;
+    background-color: #140f0f;
+    height: 60px;
+    position: relative;
+    top: 40px;
 }
-
 
 .logo, .detail {
     display: inline-block;
@@ -425,6 +424,7 @@ carousel-control-prev-icon, .carousel-control-next-icon {
     background-color: black;
     height: 600px;
     position: relative;
+    background-size: cover;
 }
 
 .lst {
@@ -821,3 +821,15 @@ a#click {
     transition: 0.5s;
 }
 
+h6#tstimonials {
+    padding-top: 8rem;
+}
+
+p#tstimonials {
+    font-family: system-ui;
+    margin: 0;
+}
+
+img.svg {
+    width: 150px;
+}

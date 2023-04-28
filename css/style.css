@@ -49,9 +49,7 @@ img.cstm-logo {
     max-width: 160px;
     padding-left: 10px;
 }
-.detail {
-    width: 70%;
-}
+
 .logo{
     width: 30%;
 }
@@ -218,7 +216,7 @@ a.cstm-button.black {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 650px;
+    /**height: 650px;**/
 }
 
 
@@ -251,9 +249,7 @@ text-transform: uppercase;
 margin-top: 27px;
 margin-bottom: 13.5px;
 }
-.wpb_text_column.wpb_content_element {
-    margin: 0px 100px 0px 100px;
-}
+
 
 .piko {
     text-align: center;
@@ -296,13 +292,7 @@ p.hover {
     
 }
 
-.sec-container {
-    display: inline-flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: -150px;
-    height: 500px;
-}
+
 
 
 .sec-content {
@@ -452,7 +442,7 @@ h5 {
 }
 
 h5#lst {
-    font-size: 40px;
+    
     font-weight: bolder;
 }
 .carousel-indicators {
@@ -467,7 +457,7 @@ h5#lst {
     filter: none;
 }
 img.edited {
-    position: absolute;
+    
     z-index: 1;
     top: 160px;
     left: 30px;
@@ -496,8 +486,14 @@ h6#tstimonials{
 /* <--------------------- MEDIA QUERRY --------------------> */
 
 @media screen and (max-height: 450px) {
+
+
   .topnav {padding-top: 15px;}
   .topnav a {font-size: 18px;}
+
+
+
+
 }
 
 
@@ -507,14 +503,8 @@ img.cstm-social {
 }
 .cta-sec {
     background: linear-gradient(0deg, #000000 0%, #015ec1 100%);
-    margin: 35px;
-    margin-bottom: 70px;
     position: relative;
     z-index: 1;
-    width: 93%;
-    top: 89%;
-    margin-top: -50px;
-    height: 290px;
 }
 .inner-sec {
     max-width: 800px;
@@ -602,6 +592,10 @@ p.blue {
     font-size: 15px;
     font-weight: 100;
     margin-bottom: -12px
+
+
+
+    
 }
 
 
@@ -614,6 +608,7 @@ p.blue {
     .banner-sec {
         padding: 0;
     }
+   
 }
 
 img {
@@ -677,14 +672,102 @@ video {
     width: 100%;
     padding: 0;
 }
+.cstm-test{
+padding:50px 220px 0px 220px;
+}
+
+@media (max-width: 479px) {
+.hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3 {
+    width: 100%!important;
+}
+.cstm-overlay {
+    font-size: 65px!important;
+    position:relative!important;
+}
+.bg-white {
+    height: 100%!important;
+}
+.lst {
+    padding: 10px;
+}
+.cstm-test {
+    padding: 0;
+}
+.wdget {
+    display: block!important;
+}
+img.cstm-logo {
+    max-width: 85px;
+}
+.cstm-request {
+    margin-top: 0;
+}
+a.cstm-button.main {
+    padding: 3px 5px;    
+  }
+  div#myTopnav {
+    margin-left: 7px;
+    font-size: 7px;
+    margin-top: -31px;
+}
+.main-nav{
+height: 65px;
+}
+.cstm-two-col {
+    margin-bottom: 34px;
+}
 
 
+h5#lst {
+    font-size: 40px;
+    margin-top: -50px;
+}
 
-
-@media (max-width: 992px) {
 
 }
+
+
+@media (min-width: 479px) {
+    .cta-sec {
+        margin-top: -50px;
+        margin: 35px;
+        margin-bottom: 70px;
+        width: 93%;
+        top: 89%;
+        height: 290px;
+    }
+    .wpb_text_column.wpb_content_element {
+        margin: 0px 100px 0px 100px;
+    }
+    .sec-container {
+        display: inline-flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: -150px;
+        height: 500px;
+    }
+    img.edited {
+        position: absolute;
+    }
+    .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
+        font-size: 60px;
+    }
+    .detail {
+        width: 70%;
+    }
+    .detail {
+        
+        font-size: 13px;
+    }
+    a.cstm-button.black {
+        margin-top:-25px;
+    }
+}
+
+
+
 /**New CSS**/
+
 .hoverbox.wpb_content_element.black_section.neutralize_links.stretchy_wrapper.ratio_2-3 {
     width: 33%;
     padding: 50px 20px;
@@ -816,7 +899,7 @@ body {
 }
 
 .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
-    font-size: 60px;
+    
     font-family: ui-sans-serif;
     font-weight: bolder;
     color: white;

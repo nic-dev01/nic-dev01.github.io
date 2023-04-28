@@ -63,7 +63,19 @@ img.cstm-logo {
     color: #fff;
 }
 
-
+div#myTopnav a.white {
+    text-decoration: none;
+    text-align: center;
+    font-size: 90%;
+    border: #c5c3c3;
+    border-radius: 0px;
+    text-decoration:none;
+    overflow: hidden;
+    transition: 0.5s;
+    float: right;
+    margin-right: 25px;
+    margin-top: -0px;
+}
 
 
 div#myTopnav a.white {
@@ -162,7 +174,7 @@ a.cstm-button.black {
 }
 
 .topnav a:hover::after{
-    background-color: #75c5f3;
+    background-color: #0148ab;
     width: 100%;
     
 }
@@ -769,13 +781,49 @@ body {
 .cstm-banner .animated.animatedFadeInUp.fadeInUp {
     visibility: visible;
 } 
+
 .cstm-banner {
     position: absolute;
     z-index: 1;
-    bottom: 50%;
+    bottom: 36%;
     left: 0;
     right: 0;
 }
+
+
+.cstm-bannr .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+
+.cstm-bannr .animatedFadeInUp {
+    opacity: 0
+}
+
+.cstm-bannr .fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.animated.animatedFadeInUp.fadeInUp {
+    visibility: hidden;
+}
+.cstm-bannr .animated.animatedFadeInUp.fadeInUp {
+    visibility: visible;
+} 
+
+
+.cstm-bannr {
+    position: absolute;
+    z-index: 1;
+    bottom: 43%;
+    left: 0;
+    right: 0;
+}
+
 .first-text {
     text-align: center;
 }
@@ -785,10 +833,11 @@ body {
     font-family: ui-sans-serif;
     font-weight: bolder;
     color: white;
+    line-height: 1;
 }
 
 a.cta-btn.cstm-button.main:hover {
-    background-color: #020202;
+    background-color: #0148ab;
 }
 
 
@@ -801,12 +850,14 @@ a.cstm-button.main {
     border-width: thin;
     color: #fff;
 }
-a#click {
-    text-align: center;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
+.cstm-banner a {
+    font-size: 12px;
 }
+.cstm-bannr a {
+    font-size: 12px;
+}
+
+
 .cstm-button.black a:hover {
     background-color: #0a0934;
     background: repeating-linear-gradient(45deg, black, transparent 100px);
@@ -833,3 +884,26 @@ p#tstimonials {
 img.svg {
     width: 150px;
 }
+
+a#bordr {
+    background-color: #1559d3;
+    padding: 5px 10px;
+    top: -4px;
+}
+p.footr {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    word-spacing: 0px;
+    /* padding: 23px; */
+    padding-top: 22px;
+}
+.cstm-inline.col-sm-4 {
+    text-align: -webkit-center;
+}
+img.owl {
+    width: 45px;
+    padding-top: 7px;
+}
+
+

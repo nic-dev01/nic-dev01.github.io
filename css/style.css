@@ -860,7 +860,7 @@ a.cstm-button.main {
 }
 
 h6#tstimonials {
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
 
 p#tstimonials {
@@ -870,6 +870,7 @@ p#tstimonials {
 
 img.svg {
     width: 150px;
+    margin-top: 35px;
 }
 
 a#bordr {
@@ -940,4 +941,7 @@ p.widget {
 .wdget {
     display: flex;
     justify-content: space-around;
+}
+.scnd-cntainer {
+    background-color: #edeceb;
 }

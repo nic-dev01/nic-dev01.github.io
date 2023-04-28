@@ -906,4 +906,14 @@ img.owl {
     padding-top: 7px;
 }
 
+a.fotr {
+    text-decoration: none;
+    color: white;
+    font-size: 12px
+}
 
+.cstm-inline.col-sm-4.fter {
+    text-align: -webkit-auto;
+    padding-top: 18px;
+    word-spacing: 15px;
+}

@@ -722,7 +722,20 @@ h2.text-center{
     margin-top: -136px;
     font-size:19px; 
 }
+#date {
+    margin-top: -13px;
+    padding: 8px 23px;
+}
+label.white{
+margin-top: 14px;
+}
+.inner-sec {
+    padding: 25px 0px 50px 0px;
+}
 
+.services-sec.bg-white {
+    padding-top: 135px;
+}
 }
 
 

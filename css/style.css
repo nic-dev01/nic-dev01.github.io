@@ -589,16 +589,40 @@ p.blue {
 
 /*Responsiveness*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .cta-sec .cstm-half {
         width: 100%;
         display: block;
+        left: 25px !important;
     }
     .banner-sec {
-        padding: 0;
+        padding: 0; 
     }
-   
+    .detail {
+        font-size: 8px !important;
+    }
+    .cta-sec{
+        left: 27px !important;
+        margin-bottom: 70px;
+        width: 93%;
+        height: 290px;
+        position: absolute;
+        height: 290px;
+    }
+    .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
+        font-size: 70px;
+    }
+    .sec-container {
+        display: inline-flex;
+        justify-content: center;
+        gap: 1.5rem;
+        height: 500px;
+        
+    }
 }
+
+
+
 
 img {
     width: 250px;
@@ -664,6 +688,8 @@ video {
 .cstm-test{
 padding:50px 220px 0px 220px;
 }
+
+
 
 @media (max-width:400PX){
     a.cstm-button.main {
@@ -739,20 +765,39 @@ margin-top: 14px;
 }
 
 
-@media (min-width: 479px) {
+/* *********************************************************************** */
+
+@media (min-width:850px) {
     h5, .h5 {
         font-size: 42px;
         margin-top: -72px;
     }
+
+    .carousel-indicators {
+        top: 300px!important;
+    }
+
     .cta-sec {
-        top: 600px;
         margin-bottom: 70px;
         width: 93%;
         height: 290px;
         position: absolute;
         height: 290px;
-        left: 35px;
+        left: 40px;
     }
+
+
+
+
+    .sec-container {
+        display: inline-flex;
+        justify-content: center;
+        gap: 1.5rem;
+        
+        height: 500px;
+        
+    }
+
     .inner-sec {
         padding: 32px 0;
     }
@@ -781,15 +826,18 @@ margin-top: 14px;
         position: absolute;
     }
     .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
-        font-size: 60px;
+        font-size: 120px;
     }
-    .detail {
-        width: 70%;
-    }
+   
+
+}
+
     .detail {
         
         font-size: 13px;
+        width: 70%;
     }
+
     a.cstm-button.black {
         margin-top:24px;
     }
@@ -820,7 +868,7 @@ margin-top: 14px;
         h5#lst {
             font-size: 50px;
         }
-}
+
 
 
 

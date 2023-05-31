@@ -472,7 +472,7 @@ h6#tstimonials{
 
 /* <--------------------- MEDIA QUERRY --------------------> */
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
 
 
   .topnav {padding-top: 15px;}
@@ -481,7 +481,7 @@ h6#tstimonials{
 
 
 
-}
+} */
 
 
 img.cstm-social {
@@ -598,9 +598,7 @@ p.blue {
     .banner-sec {
         padding: 0; 
     }
-    .detail {
-        font-size: 8px !important;
-    }
+
     .cta-sec{
         left: 27px !important;
         margin-bottom: 70px;
@@ -609,15 +607,21 @@ p.blue {
         position: absolute;
         height: 290px;
     }
-    .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
-        font-size: 70px;
-    }
+
     .sec-container {
-        display: inline-flex;
-        justify-content: center;
-        gap: 1.5rem;
         height: 500px;
-        
+       
+    }
+
+    div#myTopnav {
+        font-size: 9px;
+    }
+    .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
+        font-size: 60px;
+    }
+    .sec-container.p-4 {
+        display: inline-flex;
+        gap: 1rem;
     }
 }
 
@@ -690,12 +694,12 @@ padding:50px 220px 0px 220px;
 }
 
 
-
+/* 
 @media (max-width:400PX){
     a.cstm-button.main {
         padding: 3px 5px;    
       }
-}
+} */
 
 
 
@@ -728,9 +732,9 @@ img.cstm-logo {
 }
 
   div#myTopnav {
-    margin-left: 25px;
-    font-size: 6px;
-    margin-top: -31px;
+    margin-left: 128px;
+    font-size: 3px;
+    margin-top: -56px;
 }
 .main-nav{
 height: 65px;
@@ -762,6 +766,12 @@ margin-top: 14px;
 .services-sec.bg-white {
     padding-top: 135px;
 }
+
+.logo {
+    display: flex;
+    position: relative;
+}
+
 }
 
 
@@ -783,7 +793,7 @@ margin-top: 14px;
         height: 290px;
         position: absolute;
         height: 290px;
-        left: 40px;
+        left: 50px;
     }
 
 
@@ -819,17 +829,20 @@ margin-top: 14px;
         display: inline-flex;
         justify-content: center;
         gap: 1.5rem;
-        
-        height: 500px;
+        width: 64%;
     }
     img.edited {
         position: absolute;
     }
     .first-text.hoverbox_container.animated.animatedFadeInUp.fadeInUp {
-        font-size: 120px;
+        font-size: 110px;
     }
    
-
+    section#activities {
+        display: flex;
+        justify-content: center; 
+        position: relative;   
+    }
 }
 
     .detail {
